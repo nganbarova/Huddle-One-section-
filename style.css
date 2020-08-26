@@ -55,6 +55,7 @@ main #info{
 }
 #social{
 	float: right;
+	margin-bottom:0;
 }
 #social li{
 	display: inline;
