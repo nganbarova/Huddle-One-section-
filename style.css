@@ -39,7 +39,7 @@ main #info{
 	width: 46%;
 }
 #main{
-	padding-bottom: 500px;
+	padding-bottom: 350px;
 }
 #button{
 	background: #fff;
@@ -104,7 +104,7 @@ main #info{
 		padding-bottom: 50px;
 	}
 	main img{
-		padding-bottom: 30px;
+		padding-bottom: 50px;
 	}
 	#button{
 		width: 70%;
