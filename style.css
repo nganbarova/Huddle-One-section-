@@ -96,7 +96,7 @@ main #info{
 		width: 35%;
 	}
 	main img{
-		padding-top:0;
+		padding-top:20px;
 	}
 	body{
 		background-image: url(bg-desktop.svg);
