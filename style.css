@@ -88,6 +88,9 @@ main #info{
 	#button{
 		margin-top: 20px;
 	}
+	.attribution{
+		margin-bottom:1em;
+	}
 }
 @media(max-width: 950px){
 	main img,main #info,footer ul{
