@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans',sans-serif;
+	background-color: hsl(257, 40%, 49%);
+	background-image: url(images/bg-desktop.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+#info h1{
+	font-family: 'Poppins',sans-serif;
+	font-size: 2em;
+	margin-top: 0;
+}
+#info p{
+	line-height: 1.6em;
+}
+.attribution{
+	margin-top: 0;
+}
+.container{
+	width: 90%;
+	margin:auto;
+}
+header img[id="logo"]{
+	float: left;
+	width: 18%;
+}
+header{
+	padding-bottom: 100px;
+}
+main img{
+	width: 50%;
+	float: left;
+}
+main #info{
+	float: right;
+	width: 46%;
+}
+#main{
+	padding-bottom: 500px;
+}
+#button{
+	background: #fff;
+	width: 40%;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	color: hsl(257, 40%, 49%);
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	box-shadow: 2px 2px 2px 2px hsla(0,0%,0%,0.48)
+}
+#social{
+	float: right;
+}
+#social li{
+	display: inline;
+	list-style-type: none;
+}
+.fab{
+	color: #fff;
+	font-size: 30px;
+	display: inline;
+}
+#social{
+	word-spacing: 20px;
+}
+@media(max-width: 1050px){
+	main img{
+		padding-top: 80px;
+	}
+	main h1{
+		padding-top: 50px;
+	}
+	header{
+		padding-bottom: 50px;
+	}
+	body{
+		background-image: url(images/bg-desktop.svg);
+		background-size: cover;
+	}
+}
+@media(max-width: 950px){
+	main img,main #info,footer ul{
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin: auto;
+}
+	header img[id="logo"]{
+		width: 35%;
+	}
+	body{
+		background-image: url(images/bg-desktop.svg);
+		background-size: cover;
+	}
+	header{
+		padding-bottom: 50px;
+	}
+	#social{
+		padding-bottom: 50px;
+	}
+	main img{
+		padding-bottom: 30px;
+	}
+	#button{
+		width: 70%;
+	}
+	#main{
+		padding-bottom: 100px;
+	}
+}
