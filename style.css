@@ -95,6 +95,9 @@ main #info{
 	header img[id="logo"]{
 		width: 35%;
 	}
+	main img{
+		padding-top:0;
+	}
 	body{
 		background-image: url(bg-desktop.svg);
 		background-size: cover;
