@@ -18,7 +18,7 @@ body{
 }
 .attribution{
 	margin-top: 0;
-	margin-bottom:50px;
+	margin-bottom:20px;
 }
 .container{
 	width: 90%;
@@ -29,7 +29,7 @@ header img[id="logo"]{
 	width: 18%;
 }
 header{
-	padding-bottom: 100px;
+	padding-bottom: 70px;
 }
 main img{
 	width: 40%;
